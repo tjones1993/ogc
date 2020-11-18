@@ -1,0 +1,41 @@
+catalog:
+
+    - collection:
+        server:
+            host: 35.234.159.203         
+            port: 5432
+            user: sac
+            password: sac
+            database: gla
+        out:
+            schema: pygeoapi
+            table: pleiades
+        items:
+            - bucket: gs://general-bucketface-001
+              key: C:\\Users\\Chris.Williams\\.gcs\\gi-science-d2fa240b37e3.json
+              prefix: gla/ssgp/cog/38012
+              pattern: .*_PAN.*TIF
+            - bucket: gs://general-bucketface-001
+              key: C:\\Users\\Chris.Williams\\.gcs\\gi-science-d2fa240b37e3.json
+              prefix: gla/ssgp/cog/39019
+              pattern: .*_PAN.*TIF
+
+    - collection:
+        server:
+            host: 35.234.159.203
+            port: 5432
+            user: sac
+            password: sac
+            database: gla
+        out:
+            schema: pygeoapi
+            table: spot
+        items:
+            - bucket: gs://general-bucketface-001
+              key: C:\Users\Chris.Williams\.gcs\gi-science-d2fa240b37e3.json
+              prefix: gla/ssgp/cog/38755
+              pattern: .*_PAN.*TIF
+            - bucket: gs://general-bucketface-001
+              key: C:\Users\Chris.Williams\.gcs\gi-science-d2fa240b37e3.json
+              prefix: gla/ssgp/cog/40053
+              pattern: .*_PAN.*TIF
