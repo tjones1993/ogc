@@ -4,9 +4,9 @@ import yaml
 import glob
 import math
 
-import osr
-import gdal
 import pyproj
+import osgeo.osr
+import osgeo.gdal
 
 from shapely.geometry import box
 from shapely.ops import transform
