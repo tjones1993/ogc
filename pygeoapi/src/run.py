@@ -90,7 +90,7 @@ def getClient( config ):
     return client
 
 
-def getItems( config ):
+def getItems( config, path ):
 
     """
     get items
@@ -115,7 +115,7 @@ def getItems( config ):
 
                 # create object
                 _class = globals()[ _name ]            
-                obj = _class ( 'C:\\Users\\Chris.Williams\\Documents\\GitHub\\ogc\\pygeoapi\\cfg' )
+                obj = _class ( path )
                 
                 # add valid items to list
                 items.append( obj.getItem( uri ) )
@@ -155,7 +155,7 @@ def main():
 
     for cat in root[ 'catalog' ]:
 
-        items = list ( chain.from_iterable( getItems( c ) for c in cat[ 'collection' ][ 'items' ] ) )
+        items = list ( chain.from_iterable( getItems( c, os.path.dirname( args.config_file ) ) for c in cat[ 'collection' ][ 'items' ] ) )
         getDataTable( cat[ 'collection' ], items )
 
 

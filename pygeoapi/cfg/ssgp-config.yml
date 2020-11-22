@@ -12,11 +12,11 @@ catalog:
             table: pleiades
         items:
             - bucket: gs://general-bucketface-001
-              key: C:\\Users\\Chris.Williams\\.gcs\\gi-science-d2fa240b37e3.json
+              key: /root/.gcs/gi-science-d2fa240b37e3.json
               prefix: gla/ssgp/cog/38012
               pattern: .*_PAN.*TIF
             - bucket: gs://general-bucketface-001
-              key: C:\\Users\\Chris.Williams\\.gcs\\gi-science-d2fa240b37e3.json
+              key: /root/.gcs/gi-science-d2fa240b37e3.json
               prefix: gla/ssgp/cog/39019
               pattern: .*_PAN.*TIF
 
@@ -32,10 +32,10 @@ catalog:
             table: spot
         items:
             - bucket: gs://general-bucketface-001
-              key: C:\Users\Chris.Williams\.gcs\gi-science-d2fa240b37e3.json
+              key: /root/.gcs/gi-science-d2fa240b37e3.json
               prefix: gla/ssgp/cog/38755
               pattern: .*_PAN.*TIF
             - bucket: gs://general-bucketface-001
-              key: C:\Users\Chris.Williams\.gcs\gi-science-d2fa240b37e3.json
+              key: /root/.gcs/gi-science-d2fa240b37e3.json
               prefix: gla/ssgp/cog/40053
               pattern: .*_PAN.*TIF
