@@ -3,10 +3,11 @@ import yaml
 import argparse
 from itertools import chain
 
-from server import Server
 from item.base import Base
 from item.spot import Spot 
 from item.pleiades import Pleiades
+
+from utility.server import Server
 from utility.gsclient import GsClient
 
 
