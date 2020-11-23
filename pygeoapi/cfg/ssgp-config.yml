@@ -4,9 +4,9 @@ catalog:
         server:
             host: 127.0.0.1
             port: 5432
-            user: sac
-            password: sac
-            database: gla
+            user: root
+            password: 
+            database: ssgp
         out:
             schema: pygeoapi
             table: pleiades
@@ -24,9 +24,9 @@ catalog:
         server:
             host: 127.0.0.1
             port: 5432
-            user: sac
-            password: sac
-            database: gla
+            user: root
+            password: 
+            database: ssgp
         out:
             schema: pygeoapi
             table: spot

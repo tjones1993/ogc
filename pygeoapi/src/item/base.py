@@ -5,8 +5,8 @@ import glob
 import math
 
 import pyproj
-import osgeo.osr
-import osgeo.gdal
+import osgeo.osr as osr
+import osgeo.gdal as gdal
 
 from shapely.geometry import box
 from shapely.ops import transform
