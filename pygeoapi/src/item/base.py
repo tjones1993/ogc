@@ -90,8 +90,8 @@ class Base:
             bbox = box( lrx, lry, ulx, uly )            
 
             # create source to destination transform
-            prj = pyproj.Transformer.from_proj( pyproj.Proj(init='epsg:{}'.format( epsg ) ),
-                                                pyproj.Proj(init='epsg:4326' ), skip_equivalent=True ) 
+            prj = pyproj.Transformer.from_proj( pyproj.Proj('epsg:{}'.format( epsg ) ),
+                                                pyproj.Proj('epsg:4326' ), skip_equivalent=True ) 
 
             bbox = transform( prj.transform, bbox )   
 
