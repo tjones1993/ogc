@@ -2,7 +2,7 @@ catalog:
 
     - collection:
         server:
-            host: 35.234.159.203         
+            host: 127.0.0.1
             port: 5432
             user: sac
             password: sac
@@ -22,7 +22,7 @@ catalog:
 
     - collection:
         server:
-            host: 35.234.159.203
+            host: 127.0.0.1
             port: 5432
             user: sac
             password: sac

@@ -25,7 +25,7 @@ collection:
                   common_name: blue
                   center_wavelength: 490
                 - name: Near-infrared
-                  description: 'Near-infrared: 740 – 940-nm'
+                  description: 'Near-infrared: 740 - 940 nm'
                   common_name: nir
                   center_wavelength: 840
 
