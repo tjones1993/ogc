@@ -2,10 +2,10 @@ catalog:
 
     - collection:
         server:
-            host: 127.0.0.1
+            host: db
             port: 5432
-            user: root
-            password: 
+            user: postgres
+            password: postgres
             database: ssgp
         out:
             schema: pygeoapi
@@ -22,10 +22,10 @@ catalog:
 
     - collection:
         server:
-            host: 127.0.0.1
+            host: db
             port: 5432
-            user: root
-            password: 
+            user: postgres
+            password: postgres
             database: ssgp
         out:
             schema: pygeoapi
